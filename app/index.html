@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/libs/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="body">
+        <section class="grade">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col w50">
+                        <div class="settings">
+                            <div class="h2">Грейды для frontend</div>
+                            <div class="range-wrapper">
+                                <!--<input type="range" class="range" name="grade" id="range_slider" min="1" max="3" value="1">-->
+                                <div class="range" id="range_slider">
+
+                                </div>
+                                <div class="stages">
+                                    <div class="item">Junior</div>
+                                    <div class="item">Middle</div>
+                                    <div class="item">Senior</div>
+                                </div>
+                                <div class="line"></div>
+                                <div class="quote">Переход на следующий грейд — улучшение качества кода и увеличение ответственности.</div>
+                            </div>
+                            <div class="body-face-wrapper">
+                                <div class="row">
+                                    <div class="col w50 w50-tablet">
+                                        <div class="h2">Тело</div>
+                                        <div class="body-switcher" id="body_switcher">
+                                            <div class="item b1" data-body-image="b1" data-faces="f1,f2,f3">
+                                                <div class="image"></div>
+                                            </div>
+                                            <div class="item b2" data-body-image="b2" data-faces="f4,f5,f6">
+                                                <div class="image"></div>
+                                            </div>
+                                            <div class="item b3" data-body-image="b3" data-faces="f7,f8,f9">
+                                                <div class="image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col w50 w50-tablet">
+                                        <div class="h2">Лицо</div>
+                                        <div class="face-switcher" id="face_switcher">
+                                            <div class="item f1" data-face-img="f1">
+                                                <div class="image"></div>
+                                            </div>
+                                            <div class="item f2" data-face-img="f2">
+                                                <div class="image"></div>
+                                            </div>
+                                            <div class="item f3" data-face-img="f3">
+                                                <div class="image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col w50 ">
+                        <div class="preview-block ">
+                            <div class="grades-tags" id="slider_grades">
+                                <div class="item" data-type="1">HTML</div>
+                                <div class="item" data-type="1">CSS</div>
+                                <div class="item" data-type="1">Adaptive</div>
+                                <div class="item" data-type="1">Base JS</div>
+                                <div class="item" data-type="1">SQL</div>
+                                <div class="item" data-type="1">Git</div>
+                                <div class="item" data-type="1">ESLint</div>
+                                <div class="item" data-type="1">SASS</div>
+                                <div class="item" data-type="1">Pug</div>
+                                <div class="item" data-type="1">Gulp</div>
+                                <div class="item" data-type="1">Webpack</div>
+                                <div class="item" data-type="2" style="display:none;">TDD</div>
+                                <div class="item" data-type="2" style="display:none;">JS</div>
+                                <div class="item" data-type="2" style="display:none;">Canvas</div>
+                                <div class="item" data-type="2" style="display:none;">SVG</div>
+                                <div class="item" data-type="2" style="display:none;">Bash</div>
+                                <div class="item" data-type="2" style="display:none;">CI/CD</div>
+                                <div class="item" data-type="2" style="display:none;">React</div>
+                                <div class="item" data-type="2" style="display:none;">D3.js</div>
+                                <div class="item" data-type="2" style="display:none;">Vue</div>
+                                <div class="item" data-type="2" style="display:none;">SPA</div>
+                                <div class="item" data-type="2" style="display:none;">ES6</div>
+                                <div class="item" data-type="3" style="display:none;">ThreeJs</div>
+                                <div class="item" data-type="3" style="display:none;">WebGL</div>
+                                <div class="item" data-type="3" style="display:none;">Chrome Extensions</div>
+                                <div class="item" data-type="3" style="display:none;">Node</div>
+                                <div class="item" data-type="3" style="display:none;">Express</div>
+                                <div class="item" data-type="3" style="display:none;">Architecture</div>
+
+                            </div>
+                            <div class="dude-wrapper">
+                                <div class="dude" id="preview_dude">
+                                    <div class="face" id="preview_face"></div>
+                                </div>
+                                <div class="desk-n-mac"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+    <script src="/js/libs/jquery-3.3.1.min.js "></script>
+    <script src="/js/libs/jquery-ui.min.js "></script>
+    <script src="/js/script.js "></script>
+
+
+</body>
+
+</html>
